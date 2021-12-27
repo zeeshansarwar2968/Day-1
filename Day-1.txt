@@ -1,0 +1,129 @@
+Question-1:
+
+To read:
+https://stackoverflow.com/questions/1517582/what-is-the-difference-between-statically-typed-and-dynamically-typed-languages
+https://stackoverflow.com/questions/17253545/scripting-language-vs-programming-language
+https://cs.lmu.edu/~ray/notes/paradigms/
+
+Answer: Done
+
+
+Question-2. 
+
+Write a blog on Difference between HTTP1.1 vs HTTP2
+
+Answer:
+
+To understand the difference between the HTTP1.1 and HTTP2,
+we have to understand the workings of these protocols and how the HTTP2 
+version has improved and revised upon its predecessor.
+HTTP stands for Hypertext Markup Language and this is used extensively in
+transfer of data between client and servers(nodes). 
+
+With the increasing amount of data driven technologies, HTTP1.1 was unable
+to cope with the rising demand of data transfer speed and efficiency.
+Thus HTTP2 was devised to attend to these failings and provide a faster and 
+smoother online data transfer experience. One way of achieving this was
+through prioritizing content during the webpage loading process.
+
+Now, what is prioritization? and how has it enabled a more robust and
+efficient online experience.
+Basically, Prioritization inadvertently impacts a webpages's loadtime.
+Through this protocol, certain heavy background resources are loaded at
+the very end. Lighter resources with frontend components are loaded at the
+start to provide a seamless user experience without unncecssary lag.
+
+Even though these are perceived load times and not much different than
+actual load time, this false perception leads to a better user experience.
+
+The following are the major upgrades in HTTP2 from HTTP1.1,:
+
+a>In HTTP1.1 data is loaded in a sequential manner leading to 
+larger load times, whereas HTTP2 protocol dictates a parllel approach to data 
+streaming wherein multiples streams of data are sent at once which improves 
+the speed and loadtime of the webpage.
+
+b> HTTP2 uses an advanced and better header compression method, 
+aptly named HPACK. This method helps in reducing redundant information and 
+eliminates a few bytes per data packets.
+
+c> The older 1.1 protocol worked on the unary connection between host and 
+server, but this was an inefficient solution. With HTTP2, protocols were 
+tweaked to allow for multiple client requests happening in parallel. 
+Thereby, for one connection only one handshake was required with the 
+time gated approach. Also the servers were able to push data berfore 
+asking to reduce the turnaround time.
+
+
+Question-3.
+
+Write a blog about objects and its internal representation in Javascript
+
+Answer::
+
+Object Oriented Programming is an integral part of JavaScript in increasing the 
+overall effectivness and efficiency of the language. Objects enable developers to 
+streamline the development process on the basis of the following parameters,
+> Shorteninng the usable code
+> Enhancing the reusability of the code
+> Improving the security of the code
+
+Object in Javascript is a unary component with properties and corresponding type.
+These properties are in the simplest form declared variables but are restricted
+by association to the objects. The properties ca be accessed simply by invoking 
+the following syntax,
+	objectName.propertyName
+Values cab be assigned to the property in various ways, as described below
+
+>> Simple assignment is the easies way to assign values,
+   
+	var myProfile = new Object();
+	myProfile.name = 'Zeeshan Sarwar';
+	myProfile.age = '25';
+	myProfile.city = 'Pune';
+
+>> Another way is by using object initializer,
+
+	var myProfile = {
+		name: 'Zeeshan Sarwar';
+		age: '25';
+		city: 'Pune';
+	}
+The second example is simply key-value pairs, but in cases where the value 
+is a function, then it is called class methods. These methods can be invoked and used
+by creating an instance of the class.
+
+Classes are the logical representaion of the object. Here classes are templates or 
+more effectively blueprints which enable creation of class instances bound to a 
+certain functionality.
+
+
+Question-4:
+
+codekata practice
+
+Answer: In process
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
